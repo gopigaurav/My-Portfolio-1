@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+
+<!--For the animations-->
+
+<script>
+
+  window.onscroll = function() {myFunction(x)};
+ /* 
+  function myFunction(x) {
+if (x.matches) { // If media query matches
+  if (document.body.scrollTop > 200|| document.documentElement.scrollTop > 200) {
+  document.getElementById("zoom-head").className = "slideUp";
+}
+  else{
+ document.getElementById("zoom-head").className = "Vis";
+}
+if (document.body.scrollTop > 600|| document.documentElement.scrollTop > 600) {
+  document.getElementById("zoom-head1").className = "slideUp1";
+}
+  else{
+ document.getElementById("zoom-head1").className = "Vis1";
+}
+if (document.body.scrollTop > 1500|| document.documentElement.scrollTop > 1500) {
+  document.getElementById("zoom-head2").className = "slideUp2";
+}
+  else{
+ document.getElementById("zoom-head2").className = "Vis2";
+}
+} 
+
+else {
+  if (document.body.scrollTop > 275|| document.documentElement.scrollTop > 275) {
+  document.getElementById("zoom-head").className = "slideUp";
+}
+else{
+ document.getElementById("zoom-head").className = "Vis";
+}
+if (document.body.scrollTop > 700|| document.documentElement.scrollTop > 700) {
+  document.getElementById("zoom-head1").className = "slideUp1";
+}
+else{
+ document.getElementById("zoom-head1").className = "Vis1";
+}
+if (document.body.scrollTop > 1500|| document.documentElement.scrollTop > 1500) {
+  document.getElementById("zoom-head2").className = "slideUp2";
+}
+  else{
+ document.getElementById("zoom-head2").className = "Vis2";
+}
+}
+}
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x)
+x.addListener(myFunction)
+*/
+  </script>
+
+
+</head>
+<body>
+  <!-- Header -->
+  <section id="header" style="font-family: 'Mali', cursive;">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero" style="name-head"><h1><span>G</span>opi</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#projects" data-after="About">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>T C Gopal <span></span></h1>
+        <!--<a href="#projects" type="button" class="cta">Portfolio</a>-->
+        <!-- Neon-button  -->
+        <div class="neon-button" >
+          <a  href="#projects" class = "neon-glow">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              PORTFOLIO
+          </a>
+      </div>
+        <!-- end of Neon-button  -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+    <!-- Image Section -->
+    <div class="image__section">
+
+    </div>
+    <!-- Image Section -->
+
+
+  <!-- About Section -->
+  <div id="zoom-head">
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>My Name is T C Gopal and I am a Programmer</h2>
+        <p>Programmer who wants to explore and learn new things, Also with good amount of knowledge of Front-end techniques. Want to push my limits to another level everytime. I take everything as challenge without quiting and without running from my problems dedicating my time and knowledge.</p>
+        <!--<a href="https://drive.google.com/file/d/1Uu016pHinSULfzV8_wtul1Oiyo9kJbfQ/view?usp=sharing" class="cta">Download Resume</a>-->
+        <div class="neon-button2">
+          <a class = "neon-glow2" href="https://drive.google.com/uc?id=1Uu016pHinSULfzV8_wtul1Oiyo9kJbfQ&export=download">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              DOWNLOAD RESUME
+          </a>
+      </div>
+      </div>
+    </div>
+  </section>
+</div>
+  <!-- End About Section -->
+
+ <!-- Projects Section -->
+ <div id = "zoom-head1">
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title"><span>Pr</span>ojects</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Magic Mirror with Artificial Intelligence</h1>
+            <h2></h2>
+            <p>The smart mirror idea is to integrate technology
+seamlessly into people's lives by putting it where everyone's
+routine eventually collides, bathroom The goal of the smart
+mirror is to increase the a user's productivity by saving time.</p>
+          <a href="https://github.com/gopigaurav/MagicMirror" class = "Git-button cta" type="button">Git</a>
+          </div>
+          <div class="project-img">
+            <img src="https://cdn.trendhunterstatic.com/thumbs/ayi-smart-mirror.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Youtube-clone Using React</h1>
+            <h2></h2>
+            <p>Clone of youtube Using React</p>
+        <div>
+          <a href="https://github.com/gopigaurav/Projects" class = "Git-button cta" type="button">Git</a>
+          <a href="https://gopigaurav.github.io/Youtube-clone/" class = "Git-button cta" type="button">App</a>
+        </div>
+          </div>
+          <div class="project-img">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/YouTube_homepage.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Face and Eye Detection using OpenCV</h1>
+            <h2></h2>
+            <p>OpenCV uses machine learning algorithms to search for faces within a picture. Because faces are so complicated.
+ A Haar Cascade is basically a classifier which is used to detect the object for which it has been trained for, from the source.
+(e.g., eyes, nose tip, and mouth)</p>
+          <a href="https://github.com/gopigaurav/Projects" class = "Git-button cta" type="button">Git</a>
+          </div>
+          <div class="project-img">
+            <img src="https://i.morioh.com/2020/02/26/2954199cef43.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>ChatBot with python</h1>
+            <h2></h2>
+            <p>A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through messaging applications, websites, mobile apps or through the telephone</p>
+          <a href="https://github.com/gopigaurav/Projects" class = "Git-button cta" type="button">Git</a>
+          </div>
+          <div class="project-img">
+            <img src="https://cdn.technologyadvice.com/wp-content/uploads/2018/02/friendly-chatbot-700x408.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Number plate detection</h1>
+            <h2></h2>
+            <p>The first step is to detect the License plate from the car. We will use the contour option in OpenCV to detect for rectangular objects to find the number plate. The accuracy can be improved if we know the exact size, color and approximate location of the number plate.</p>
+          <a href="https://github.com/gopigaurav/Projects" class = "Git-button cta" type="button">Git</a>
+          </div>
+          <div class="project-img">
+            <img src="https://miro.medium.com/max/3840/1*MOecD-Ww8mJA_rK0ivsPQg.jpeg" alt="img">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  <!-- End Projects Section -->
+
+  <!--start of demo project section-->
+  <div class="projects-header">
+    <h1 class="section-title">Mo<span>re  Pro</span>jects</h1>
+  </div>
+  <div class="container-rot">
+    <div class="box">
+        <div class="imgBx">
+            <img id="img1" src="data:image/jpeg;base64,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">
+         </div>
+         <div class="content">
+            <div>
+                <h2>
+                    Netflix-clone
+                </h2>
+                <p>
+                    Netflix-clone using react 
+                </p>
+                <a href="https://gopigaurav.github.io/netflixx-clone/" class = "Git-button2 cta2" type="button">App</a>
+            </div>
+         </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="https://images.firstpost.com/fpimages/1200x800/fixed/jpg/2020/07/tinder-verified.jpg">
+         </div>
+         <div class="content">
+            <div>
+                <h2>
+                   Tinder Clone
+                </h2>
+                <p>
+                    Tinder clone with React
+                </p>
+                <a href="https://gopigaurav.github.io/Mern-tinder/" class = "Git-button2 cta2" type="button">App</a>
+            </div>
+         </div>
+    </div>
+    <div class="box">
+      <div class="imgBx">
+          <img src="https://images.livemint.com/img/2020/08/05/600x338/AFP_1W15UN_1596599593606_1596599613268.jpg">
+       </div>
+       <div class="content">
+          <div>
+              <h2>
+                  Amazon Clone
+              </h2>
+              <p>
+                  Amazon-clone with react
+              </p>
+              <a href="https://gopigaurav.github.io/amazon-clone/" class = "Git-button2 cta2" type="button">App</a>
+          </div>
+       </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+        <img src="https://store-images.s-microsoft.com/image/apps.50484.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.2c71c1ea-c28f-4dd1-b72d-c43cdd3476f4">
+     </div>
+     <div class="content">
+        <div>
+            <h2>
+               Twitter Clone
+            </h2>
+            <p>
+                Twitter-clone with react
+            </p>
+            <a href="https://gopigaurav.github.io/twitter-clone/" class = "Git-button2 cta2" type="button">App</a>
+        </div>
+     </div>
+</div>
+<div class="box">
+  <div class="imgBx">
+      <img src="https://store-images.s-microsoft.com/image/apps.2415.13571498826857201.e4ba42d9-45c4-4947-bfd8-7fae72d7d204.501d4b6e-eec1-450d-bb3a-3c1a8398d625?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg">
+   </div>
+   <div class="content">
+      <div>
+          <h2>
+              Spotify Clone
+          </h2>
+          <p>
+              Spotify-clone with react
+          </p>
+          <a href="https://gopigaurav.github.io/Spotify-clone-appp/" class = "Git-button2 cta2" type="button">App</a>
+      </div>
+   </div>
+</div>
+<div class="box">
+  <div class="imgBx">
+      <img src="https://images.news18.com/ibnlive/uploads/2020/08/1598341407_whatsapp-logo.jpg">
+   </div>
+   <div class="content">
+      <div>
+          <h2>
+              whatsapp-clone
+          </h2>
+          <p>
+              with Firebase-auth
+          </p>
+          <a href="https://gopigaurav.github.io/Firebase-whatsapp-auth/" class = "Git-button2 cta2" type="button">App</a>
+      </div>
+   </div>
+</div>
+<div class="box">
+  <div class="imgBx">
+      <img src="https://www.businessinsider.in/photo/74487068/whatsapp-new-dark-mode-android-ios-3-am-chats.jpg?imgsize=29853">
+   </div>
+   <div class="content">
+      <div>
+          <h2>
+              Mern-whatsapp-clone
+          </h2>
+          <p>
+               with MERN
+          </p>
+          <a href="https://gopigaurav.github.io/Spotify-clone/" class = "Git-button2 cta2" type="button">App</a>
+      </div>
+   </div>
+</div>
+<div class="box">
+  <div class="imgBx">
+      <img src="https://gray-kota-prod.cdn.arcpublishing.com/resizer/nLRQrQXst_ArzpNx3oPU6njjoq4=/1200x675/smart/cloudfront-us-east-1.images.arcpublishing.com/gray/UQ4IH7A7UNBFPMO5SQPY6SFBRQ.png">
+   </div>
+   <div class="content">
+      <div>
+          <h2>
+              Covid-19 Tracker
+          </h2>
+          <p>
+              with react
+          </p>
+          <a href="https://gopigaurav.github.io/Covid-19-tracker/" class = "Git-button2 cta2" type="button">App</a>
+      </div>
+   </div>
+</div>
+<div class="box">
+  <div class="imgBx">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk37dYfE45zeo_p7DSCGlFeWBiioB3iDmPzg&usqp=CAU">
+   </div>
+   <div class="content">
+      <div>
+          <h2>
+              Airbnb-Clone
+          </h2>
+          <p>
+              with react
+          </p>
+          <a href="https://gopigaurav.github.io/Airbnb-clone/" class = "Git-button2 cta2" type="button">App</a>
+      </div>
+   </div>
+</div>
+<div class="box">
+  <div class="imgBx">
+      <img src="https://www.shopmyexchange.com/products/images/xlarge/6679749_0000.jpg">
+   </div>
+   <div class="content">
+      <div>
+          <h2>
+              Hulu Clone
+          </h2>
+          <p>
+              Hulu-clone with react
+          </p>
+          <a href="https://gopigaurav.github.io/Hulu-clone/" class = "Git-button2 cta2" type="button">App</a>
+      </div>
+   </div>
+</div>
+    
+</div>
+<div class="neon-button2" >
+  <a  href="https://github.com/gopigaurav"  class = "neon-glow2">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+     Code in Github
+  </a>
+</div>
+  <!--end of demo project section-->
+
+
+  <!-- Contact Section -->
+  <div id="zoom-head2">
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9538924775</h2>
+            <h2>+91 8296331702</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>gopigaurav9@gmail.com</h2>
+            <h2></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>T</span> C <span></span>Gopal</h1></div>
+      <div class="social-icon">
+       <!-- <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>-->
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
