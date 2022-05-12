@@ -15,7 +15,7 @@ p{
 	color: rgb(255, 2, 213) !important;
 }
 body{
-	background-color: #4b4a4a;
+	background-color: #2b2741;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -400,7 +400,8 @@ p {
 	background-position: top center;
 	position: relative;
 	z-index: 1;
-	animation: animate 90s ease-in-out infinite;
+	/*animation: animate 90s ease-in-out infinite;*/
+	background-image: url(https://c1.wallpaperflare.com/preview/182/936/1023/hacker-silhouette-hack-anonymous.jpg);
 }
 @keyframes animate{
 	0%{
